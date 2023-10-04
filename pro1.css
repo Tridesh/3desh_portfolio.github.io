@@ -1,0 +1,60 @@
+.description {
+	font-size: 20px;
+	color: cyan;
+	font-family: sans-serif;
+}
+.t1 {
+	color: white;
+}
+h3 {
+	color: aliceblue;
+}
+.description_content {
+	font-family: monospace;
+	color: white;
+}
+.title {
+	font-size: 20px;
+	color: blue;
+	font-family: Snell Roundhand, cursive;
+	font-weight: bold;
+}
+.download {
+    background-color: #BEBDB8;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    width: 125px;
+}
+.download:hover {
+    background-color: #FFFFFF;
+}
+.heading {
+	font-size: 20px;
+	color: green;
+	font-family: Snell Roundhand, cursive;
+	font-weight: bold;
+}
+.methodology {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: green;
+}
+.expectedOutcomes {
+	font-size: 20px;
+	color: blue;
+	font-family: sans-serif;
+}
+.headingcontent {
+	text-shadow: 0px 0px 2px #FFFFFF;
+	font-family: monospace;
+	color: white;
+	font-size: 15px;
+}
+body {
+	background-color: lightcyan;
+}

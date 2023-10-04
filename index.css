@@ -1,0 +1,140 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;, sans-serif;
+    background-color: #f5f5f5;
+    background-size: cover;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    animation: fadeInUp 1s ease-in-out;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+.about {
+    background-color: white;
+    opacity: 0.5;
+}
+.project-card1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    right: 50px;
+    margin-left: 200px;
+}
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    float: left;
+    margin-left: 750px;
+    margin-top: -90px;
+}
+.project-card:hover {
+    transform: scale(1.02);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    animation: fadeInUp 1s ease-in-out;
+}
+.cv-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cv-button:hover {
+    background-color: #ff4500;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    animation: fadeInUp 1s ease-in-out;
+}
+form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+form label {
+    font-size: 16px;
+    color: #333;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+form input[type="submit"]:hover {
+    background-color: #ff4500;
+}
+h1, h2, p {
+    color: #ff6600;
+}
+.project-card {
+    border-color: #ff6600;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
